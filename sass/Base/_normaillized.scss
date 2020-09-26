@@ -1,0 +1,58 @@
+.owl-nav {
+    .owl-prev {
+        position: absolute;
+        width: 50px;
+        height: 64px;
+        top: 50%;
+        left: 0%;
+        background-image: url(../../img/prev-session.png) !important;
+        span {
+            display: none;
+        }
+    }
+    .owl-prev:hover,
+    .owl-prev:focus,
+    .owl-prev:active {
+        background-color: transparent !important;
+        outline: none;
+    }
+    .owl-next {
+        position: absolute;
+        width: 50px;
+        height: 64px;
+        top: 50%;
+        right: 1%;
+        background-image: url(../../img/next-session.png) !important;
+        span {
+            display: none;
+        }
+    }
+    .owl-next:hover,
+    .owl-next:active,
+    .owl-next:focus {
+        outline: none;
+        background-color: transparent !important;
+    }
+}
+
+.owl-theme {
+    .owl-dots {
+        width: 100%;
+        position: absolute;
+        bottom: 10%;
+        .owl-dot {
+            outline: none;
+            span {
+                width: 15px;
+                height: 15px;
+            }
+            &:active,
+            &:hover {
+                outline: none;
+                span {
+                    background-color: $color-red-3;
+                }
+            }
+        }
+    }
+}

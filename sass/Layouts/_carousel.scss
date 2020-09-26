@@ -1,0 +1,36 @@
+.carousel {
+    margin-top: 60px;
+    position: relative;
+    .carousel__content {
+        .carousel__items {
+            img {
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            i {
+                font-size: 25px;
+                display: block;
+                width: 75px;
+                height: 75px;
+                color: white;
+                text-align: center;
+                border: 2px solid white;
+                border-radius: 50%;
+                justify-items: center;
+                line-height: 70px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+                background-color: $color-black-light;
+            }
+        }
+    }
+    .carousel__content:hover {
+        i {
+            opacity: 0.8;
+        }
+    }
+}

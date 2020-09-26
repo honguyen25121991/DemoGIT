@@ -1,0 +1,23 @@
+//Helper
+@import "./Helper/mixin";
+@import "./Helper/variables";
+//Base
+@import "./Base/customize";
+@import "./Base/reset";
+@import "./Base/normaillized";
+//Components
+@import "./Components/button";
+@import "./Components/brand";
+@import "./Components/hover";
+@import "./Components/navigation";
+//Layouts
+@import "./Layouts/header";
+@import "./Layouts/carousel";
+@import "./Layouts/searchbar";
+@import "./Layouts/filmlist";
+@import "./Layouts/showtime";
+@import "./Layouts/new";
+@import "./Layouts/mobileapp";
+@import "./Layouts/contact";
+@import "./Layouts/footer";
+//:)) nó bị lỗi l3n nók compile qa lu4n 0ó a
